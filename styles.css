@@ -1,0 +1,86 @@
+/* Home Page */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins' sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+  a, btn{
+    transition: all 300ms ease;
+  }
+ #navbar, .nav-links{
+    display: flex;
+  }
+#navbar{
+    align-items: center;
+    justify-content: space-around;
+    height: 17vh;
+}
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+a:hover{
+    color:grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: (181,181,181);
+}
+.logo{
+    font-size: 2rem;
+}
+.logo:hover{
+    cursor: default;
+}
+#home{
+    
+    background-color: #d5bdaf;
+   
+    height:90vh;
+    width: 100%;
+    padding: 0;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left; */
+
+}
+
+#home button{
+    width: 100px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: white;
+    
+}
+h1{
+    font-size: 3em;
+}
+p{
+    color: white;
+}
+
+/* Sections */
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+
+    /* might change bc what is going on here */
+}
+
