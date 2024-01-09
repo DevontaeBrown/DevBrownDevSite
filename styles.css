@@ -1,0 +1,152 @@
+/* Home Page */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins' sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+a, btn{
+    transition: all 300ms ease;
+  }
+  p {
+    color: rgb(85, 85, 85);
+  }
+ #navbar, .nav-links{
+    display: flex;
+  }
+#navbar{
+    align-items: center;
+    justify-content: space-around;
+    height: 17vh;
+}
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+a:hover{
+    color:grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: (181,181,181);
+}
+.logo{
+    font-size: 2rem;
+}
+.logo:hover{
+    cursor: default;
+}
+
+/* Sections */
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+
+}
+/* aka profile */
+#home{
+
+    height:80vh;
+    display:flex;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+
+
+
+
+
+.section__pic-container{
+    display:flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+.section-text{
+    align-self: center;
+    text-align: center;
+}
+
+.section-text p {
+    font-weight: 600;
+}
+.section-text-p1{
+text-align: center;
+}
+.section-text-p2{
+font-size: 1.75rem;
+margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;;
+}
+
+#socials-container{
+    display:flex;
+    justify-content: center;
+    margin-top:1rem;
+    gap:1rem;
+}
+.icon{
+    cursor:pointer;
+    height: 2rem
+}
+
+
+/* BUTTON */
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .btn-color-1,
+  .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+  }
+  .btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
+}
+
+.btn-color-2 {
+  background: none;
+}
+
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+.btn-container {
+    gap: 1rem;
+  }
